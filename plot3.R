@@ -24,7 +24,7 @@ g <- ggplot(aggregatedbyyear_bulti, aes(year, Emissions, color = type))
 g <- g + geom_line() +
         xlab("Year") +
         ylab(expression("Total Emissions")) +
-        ggtitle("Total PM2.5 emission by year in Baltimore from 1999 to 2008")
+        ggtitle("Total PM2.5 emission by type in Baltimore from 1999 to 2008")
 plot(g)
 
 
